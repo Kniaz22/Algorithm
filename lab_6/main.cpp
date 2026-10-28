@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Блюдо - часть заказа (композиция: живёт и умирает вместе с Order)
+// Блюдо, композиция
 class Dish {
     string name;
     double price;
@@ -18,7 +18,7 @@ public:
     }
 };
 
-// Заказ владеет блюдами (композиция)
+// Заказ владеет блюдами, композиция
 class Order {
     int number;
     vector<Dish> dishes;
@@ -52,7 +52,7 @@ public:
     };
 };
 
-// Ресторан - одиночка, только ссылается на заказы (агрегация)
+// Ресторан - оидночка, агрегация
 class Restaurant {
     vector<Order*> orders;
 
@@ -69,7 +69,7 @@ public:
     }
 
     void addOrder(Order& order) { orders.push_back(&order); }
-    void clearOrders() { orders.clear(); } // заказы при этом НЕ удаляются
+    void clearOrders() { orders.clear(); } // заказы не удаляются
 
     void printOrders() const {
         cout << "\nЗаказы ресторана:" << endl;
