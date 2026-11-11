@@ -45,23 +45,23 @@
 
 **Задание:**
 
-![Результат основной программы](/lab_7/images/task.png)
+![Задание](/lab_2_2sem/images/task.png)
 
 **Вариант:**
 
-![Результат сравнения производительности](/lab_7/images/variant.png)
+![Вариант](/lab_2_2sem/images/variant.png)
 
 **Код:**
 
-![Результат сравнения производительности](/lab_7/images/code_1.png)
+![Код](/lab_2_2sem/images/code_1.png)
 
-![Результат сравнения производительности](/lab_7/images/code_2.png)
+![Код](/lab_2_2sem/images/code_2.png)
 
-![Результат сравнения производительности](/lab_7/images/code_3.png)
+![Код](/lab_2_2sem/images/code_3.png)
 
 **Результат:**
 
-![Результат сравнения производительности](/lab_7/images/result.png)
+![Код](/lab_2_2sem/images/result.png)
 
 ---
 
