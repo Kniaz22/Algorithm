@@ -2,6 +2,7 @@
 #include <stdexcept>
 #include <vector>
 
+using namespace std;
 template <typename T>
 class DoublyLinkedList {
 private:
@@ -95,8 +96,7 @@ public:
         return false;
     }
 
-    // Вариант 14: преобразовать список в std::vector.
-    std::vector<T> toVector() const {
+    vector<T> toVector() const {
         std::vector<T> result;
         result.reserve(count);
         for (Node* p = head; p != nullptr; p = p->next)
